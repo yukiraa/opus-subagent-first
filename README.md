@@ -4,6 +4,16 @@ A Claude Code skill that makes Opus act as orchestrator and delegate bounded sub
 
 ## Install
 
+To try the skill in one project, open a terminal in the project directory and run this command with Node.js and Git installed:
+
+```sh
+npx --yes skills@1.9.0 add yukiraa/opus-subagent-first --skill opus-subagent-first -a claude-code --copy -y
+```
+
+This installs the skill in `.claude/skills/opus-subagent-first/` for that project. Start Claude Code in the same directory and invoke `/opus-subagent-first`.
+
+### Install for all your projects
+
 Download [the skill ZIP](https://github.com/yukiraa/opus-subagent-first/releases/latest/download/opus-subagent-first.zip) and extract it. Copy the `opus-subagent-first` folder into your Claude Code skills directory so the file is at:
 
 ```
